@@ -102,3 +102,50 @@
    
     margin: 0 auto;
 }
+
+/* media query */
+
+@media screen and (max-width: 430px) {
+    .nav-head{
+        padding: 1rem auto;
+    }
+   
+    .nav-container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .nav-title{
+        flex-direction: row;
+    }
+    .nav-item{
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .nav-link{
+        margin: 10px;
+    }
+
+    .banner-content{
+        margin: 30px auto;
+    }
+    .bnr-title{
+        font-size: 30px;
+    }
+    .bnr-description{
+        margin: auto 10px;
+        font-size: small;
+    }
+
+    .bnr-image{
+        width: 400px;
+    }
+    .btn-primary{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .bnr-image{
+        width: 90vw;
+    }
+    
+}

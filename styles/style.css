@@ -1,5 +1,9 @@
 /* Universal CSS */
 
+*{
+    margin: 0;
+ 
+}
 
 /* Text Color */
 .dark1{
@@ -11,9 +15,34 @@
 .dark3{
     color: rgba(114, 114, 114, 1);
 }
+.bccolor{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 
 /* display */
 
 .flex{
     display: flex;
+}
+
+/* Navigation section */
+.nav-head{
+    padding: 3rem 0;
+}
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 13rem;
+}
+.nav-title{
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 50px;
 }

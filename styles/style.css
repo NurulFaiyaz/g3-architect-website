@@ -95,13 +95,55 @@
 .bnr-title{
     font-size: 64px;
     font-weight: 700;
-
 }
-
 .bnr-image{
-   
     margin: 0 auto;
 }
+
+/* Body Container */
+
+#body-container{
+    margin: 4rem 15rem;
+}
+#feature-section{
+    justify-content:center;
+    align-items: center;
+    gap: 4.8rem;
+}
+.feature-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.feature-content{
+    max-width: 537px;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+#title-special1{
+    font-weight: 500;
+
+}
+#title-special3{
+    color: rgba(255, 144, 14, 1);
+}
+.feature-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0;
+}
+
+
+
+
+
+
+
+
+
 
 /* media query */
 
